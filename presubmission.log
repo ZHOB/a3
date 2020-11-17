@@ -1,0 +1,26 @@
+Script started on Mon Nov  9 18:20:21 2020
+zihao8@ug12:~/Desktop$ mkdir demoa3
+zihao8@ug12:~/Desktop$ mv assignment3.tf[Kgz ~/Desktop/demoa3
+zihao8@ug12:~/Desktop$ cd demoa3
+zihao8@ug12:~/Desktop/demoa3$ ls
+assignment3.tgz
+zihao8@ug12:~/Desktop/demoa3$ tar -xzv[K[Kvzf assignment3.tgz 
+assignment3/
+assignment3/summary.dat
+assignment3/Gomoku.py
+assignment3/README.md
+assignment3/gomoku3.py
+assignment3/assignment3-public-tests.gtp
+assignment3/gtp_connection.py
+assignment3/board_util.py
+assignment3/board.py
+zihao8@ug12:~/Desktop/demoa3$ cd s[Kassignment3
+zihao8@ug12:~/Desktop/demoa3/assignment3$ ls
+Gomoku.py  assignment3-public-tests.gtp  board_util.py	gtp_connection.py
+README.md  board.py			 gomoku3.py	summary.dat
+zihao8@ug12:~/Desktop/demoa3/assignment3$ export PATH=$PATH:/cshome/zihao8/libxs lt-1.1.33/gogui/bin
+zihao8@ug12:~/Desktop/demoa3/assignment3$ gogui [K-regress "ptho[K[K[Kython3 Go[K[Kgomoku3.py" ass ignment3-public-tests.gtp
+zihao8@ug12:~/Desktop/demoa3/assignment3$ r[Kexit
+exit
+
+Script done on Mon Nov  9 18:25:56 2020
